@@ -1,0 +1,1 @@
+default: --expand --backtrace --format pretty --publish-quiet #--format json --out=reports/cucumber.json

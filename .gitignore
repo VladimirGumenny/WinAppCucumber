@@ -1,0 +1,6 @@
+.idea/
+*.DS_Store
+reports/*.png
+Gemfile.lock
+cucumber.json
+cucumber.html
