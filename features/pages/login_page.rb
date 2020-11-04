@@ -3,7 +3,8 @@ class LoginPage < BasePage
   class << self
 
     def login_buttons
-      $driver.find_elements(:name, 'LOGIN')
+      # $driver.find_elements(:name, 'LOGIN')
+      $driver.find_elements(:accessibility_id, 'login-button')
     end
 
     def phone_number_element

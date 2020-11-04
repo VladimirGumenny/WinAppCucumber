@@ -23,3 +23,4 @@ $driver = Appium::Driver.new(opts, true).start_driver
 $driver.manage.timeouts.implicit_wait = 30
 
 $wait = Selenium::WebDriver::Wait.new timeout: 30
+# $driver.page_source

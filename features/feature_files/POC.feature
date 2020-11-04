@@ -10,7 +10,7 @@ Feature: Win App POC
     And I log out
 
   @POC2
-  Scenario: Scenario with POM
+  Scenario: Run Ooma Office Win Application with POM
     Given I start Ooma Office Application using POM
     And I logout if logged in POM
     When I login with valid credentials POM

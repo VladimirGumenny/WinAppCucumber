@@ -4,7 +4,7 @@
 	2. Install inspection tool https://accessibilityinsights.io/docs/en/windows/overview/
 	3. Install windows application driver: https://github.com/microsoft/WinAppDriver.git => Releases => download WindowsApplicationDriver.msi and install it; store location where it is installed (like C:\Program Files (x86)\Windows Application Driver\)
 	4. Enable developer mode in Windows: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
-	5. Go to the folder from above and Launch WinDriverApp.exe; will get listening address with port like  http://127.0.0.1:4723/
+	5. Go to the folder from above and Launch WinDriverApp.exe; will get listening address with port like http://127.0.0.1:4723/
 	6. In case you got error about eventmachine: 
         1. gem uninstall eventmachine
         2. gem install eventmachine --platform=ruby
