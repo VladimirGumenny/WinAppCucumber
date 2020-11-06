@@ -8,7 +8,6 @@
 	6. In case you got error about eventmachine: 
         1. gem uninstall eventmachine
         2. gem install eventmachine --platform=ruby
-    7. Start WinAppDriver from the folder where you intsalled it (see step 3 above): winappdriver.exe 127.0.0.1 4723/wd/hub
 
 
 ## Supported locators
