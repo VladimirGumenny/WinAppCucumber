@@ -20,3 +20,7 @@
 | FindElementByName            	| name             	| Name                                    	| Calculator    	|
 | FindElementByTagName         	| tag name         	| LocalizedControlType (upper camel case) 	| Text          	|
 | FindElementByXPath           	| xpath            	| Any                                     	| //Button[0]   	|
+
+## Hints
+
+- use `$driver.page_source`to retrieve UI hierarchy in XML format
