@@ -41,5 +41,9 @@ class LoginPage < BasePage
       password_element.clear
     end
 
+    def wait_login_page_loaded
+      $wait.until { login_buttons.size > 0 }
+    end
+
   end
 end
